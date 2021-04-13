@@ -4,6 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 const fetch = require('node-fetch');
+const app = require('express')();
 const fs = require('fs');
 
 /*=========================================================*/
@@ -199,6 +200,10 @@ client.login(config.token).catch(() => {
     console.log('Rennia: Token is not valid!');
 }).then(() => {
     console.log('Rennia: Bot is ready!');
+});
+
+app.listen(process.env.PORT || 5000, () => {
+    console.log('Rennia: Server is ready!');
 });
 
 /*=========================================================*/
