@@ -1,7 +1,5 @@
 {
-    "prefix": "r!",
-    "token": "NzI4MzE4NzEwOTk3MDU3NjM3.Xv4pqA.HiTyMOlsFpoyMpWVP1meyXaZCno",
-    "owners": [
-        "451444721089380373"
-    ]
+    "prefix": "PREFIX_HERE",
+    "token": "TOKEN_HERE",
+    "owners": [ "ID_1", "ID_2", "ID3" ]
 }
