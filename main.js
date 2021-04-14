@@ -197,13 +197,13 @@ client.on('message', message => {
 /*=========================================================*/
 
 client.login(config.token).catch(() => {
-    console.log('Rennia: Token is not valid!');
+    console.log('Bot: Token is not valid!');
 }).then(() => {
-    console.log('Rennia: Bot is ready!');
+    console.log('Bot: Bot is ready!');
 });
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log('Rennia: Server is ready!');
+    console.log('Bot: Server is ready!');
 });
 
 /*=========================================================*/
